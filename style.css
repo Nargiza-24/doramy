@@ -1,61 +1,184 @@
-body {
-    font-family: sans-serif;
-}
-
 header {
-    background-color: blueviolet;
-    margin: 5px;
-    padding: 10px;
-}
-
-header a {
-    text-decoration: none;
-    border: 3px solid white;
-    background-color: burlywood;
-    border-radius: 5px;
-    padding: 2px;
+    background-color: black;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    height: 100px;
 }
 
 h1 {
-    color:darkblue;
-}
-
-footer {
-    background-color: pink;
-    color: brown;
-}
-
-footer p {
-    background-color: white;
-}
-
-nav a {
-    border: 3px solid navy;
-    background-color: navy;   
-    text-decoration: none;
     color: white;
-    border-radius: 10px;
-    margin: 10px; 
-    padding: 1px;
+    text-align: center;
 }
 
-.popular {
+h1:hover{
+    transform: scale(1.1);
+}
+.logotip {
+    box-shadow: 5px 5px 5px 5px red;
+}
+
+.button1 {
     background-color: white;
-    color: royalblue;
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 24px;
+    border-radius: 10px;
+    margin-left: 900px;
+}
+.button2 {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 24px;
+    border-radius: 10px;
+    margin: 100px;
+}
+body {
+    font-family: sans-serif;
+    background-color: black;
 }
 
-.icon{
-    background-color: blueviolet;
+nav {
+    border-top: 5px double gray;
+    border-bottom: 5px double gray;
+    padding: 25px 100px 25px 95px;
+    display: flex;
+    justify-content: space-between;
+    background-image: linear-gradient(to right, pink, blue);
+}
+
+.nav-link {
+    font-size: 24px;
+    color: black;
+    text-decoration: none;
+    display: block;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.nav-link {
+    background-color: black;
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+.nav-link:hover {
+    box-shadow: 5px 5px 5px 5px red;
+    transform: scale(1.5);
+    transition: 1s linear;
+}
+
+.post {
+    background-color: white;
+    padding: 15px 45px 30px 45px;
+    width: 400px;
+    margin: 20px;
+    position: relative;
+}
+
+.post:hover {
+    box-shadow: 5px 5px 5px 5px red;
+}
+
+.post:hover h2, .post:hover p {
+    color: white;
+}
+
+.post-text {
+    font-size: 24px;
+}
+
+.article-but {
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    padding: 10px 75px 10px 75px;
+    display: block;
+    border-radius: 20px;
+}
+
+.article-but:hover {
+    box-shadow: 5px 5px 5px 5px pink;
+    background-image: linear-gradient(to right, pink, blue);
+}
+
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.nav-link:hover {
+    background-color: gray;
+}
+
+.button1:hover {
+    background-color: gray;
+}
+
+.button2:hover {
+    background-color: gray;
+}
+
+a:hover {
+    box-shadow: 5px 5px 5px 0 red;
+}
+
+.post:hover {
+    background-color: gray;
+}
+
+.sales-img {
+    position: absolute;
+    right: 5px;
+    top: 5px;
 }
 
 h2 {
-    color:darkslateblue;
+    text-align: center;
 }
 
-body {
-    font-size: 20px;
+.footer-a{
+    background-color: black;
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    display: block;
+    border-radius: 10px;
 }
 
-main {
-    margin: 10px;
+footer{
+    border-top: 5px double gray;
+    border-bottom: 5px double gray;
+    padding: 25px 100px 25px 95px;
+
+    background-image: linear-gradient(to right, pink, blue);
+}
+
+.diva {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.footer-a {
+    padding: 5px;
+}
+
+.footer-a:hover{
+    transform: scale(1.5);
+    transition: 1s linear;
+}
+
+.sales-img:hover{
+    transform: scale(1.5);
+    transition: 1s linear;
 }
